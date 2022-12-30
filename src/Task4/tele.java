@@ -1,11 +1,11 @@
 package Task4;
 
 public class tele {
-    private final String name;
-    private final String god;
-    private final int cena;
-    private final String Proisvoditel;
-    private final int Diagonal;
+    private  String name;
+    private  String god;
+    private  int cena;
+    private  String Proisvoditel;
+    private  int Diagonal;
 
 
     public tele(String name, String god, int cena, String proisvoditel, int diagonal) {
@@ -13,6 +13,26 @@ public class tele {
         this.god = god;
         this.cena = cena;
         Proisvoditel = proisvoditel;
+        Diagonal = diagonal;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setGod(String god) {
+        this.god = god;
+    }
+
+    public void setCena(int cena) {
+        this.cena = cena;
+    }
+
+    public void setProisvoditel(String proisvoditel) {
+        Proisvoditel = proisvoditel;
+    }
+
+    public void setDiagonal(int diagonal) {
         Diagonal = diagonal;
     }
 

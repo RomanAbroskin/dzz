@@ -2,13 +2,13 @@ package Task3;
 
 public class avto {
 
-   private final String name;
-   private final String god;
-   private final int cena;
-   private final String color;
-   private final double obiem;
+   private  String name;
+   private  int god;
+   private  int cena;
+   private  String color;
+   private  double obiem;
 
-    public avto(String name, String god, int cena, String color, double obiem) {
+    public avto(String name, int god, int cena, String color, double obiem) {
         this.name = name;
         this.god = god;
         this.cena = cena;
@@ -16,11 +16,13 @@ public class avto {
         this.obiem = obiem;
     }
 
+
+
     public String getName() {
         return name;
     }
 
-    public String getGod() {
+    public int getGod() {
         return god;
     }
 
